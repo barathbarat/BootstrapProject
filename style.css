@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+#head{
+    text-align: center;
+    margin-top: 75px;
+    font-size: 50px;
+    color: white;
+}
+span{
+    color: darkorange;
+}
+#carouselExampleIndicators{
+    margin-top: 75px;
+}
+.d-block{
+    height: 500px;
+    width: 100%;
+}
+.quote{
+    color: lightblue;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+}
+.image{
+    margin-top: 50px;
+    height: 300px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+}
+.btn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+@media (max-width:570px){
+    .quote{
+        font-size: 20px;
+    }
+}
+@media (max-width:430px){
+    .quote{
+        font-size: 15px;
+    }
+}
+@media (max-width:1028px){
+    .d-block{
+        height: 400px;
+    }
+}
+@media (max-width:770px){
+    .d-block{
+        height: 300px;
+    }
+    #carouselExampleIndicators{
+        margin-top: 60px;
+    }
+}
+@media (max-width:555px){
+    .d-block{
+        height: 200px;
+    }
+    #carouselExampleIndicators{
+        margin-top: 45px;
+    }
+}
+@media (max-width:320px){
+    .d-block{
+        height: 100px;
+    }
+    #carouselExampleIndicators{
+        margin-top: 30px;
+    }
+}
+@media (max-width:470px){
+    #head{
+        margin-top: 50px;
+        font-size: 35px;
+    }
+}
+@media (max-width:340px){
+    #head{
+        margin-top: 30px;
+        font-size: 25pxpx;
+    }
+}
